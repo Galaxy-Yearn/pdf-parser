@@ -96,10 +96,3 @@ artifacts/
 - 新工作区需要模板时，复制 `assets/default.env.example` 到工作区根目录并重命名为 `.env`，再手动填入真实密钥。
 
 默认路由通过工作区 `.env` 中的 `DEFAULT_*` 变量读取，不需要在代码里硬编码模型、提供商或密钥。
-
-## 发布前检查
-
-- 提交前检查 `git status`
-- 确认未包含 `.env`、缓存目录、测试产物
-- 确认 `assets/default.env.example` 中没有真实密钥
-- 保留 `LICENSE` 以明确复用条件
