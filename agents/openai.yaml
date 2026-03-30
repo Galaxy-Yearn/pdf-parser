@@ -1,0 +1,7 @@
+interface:
+  display_name: "PDF Parser"
+  short_description: "Parse PDFs into OCR and figure artifacts"
+  default_prompt: "Use $pdf-parser to parse this PDF into page images, OCR markdown, figure crops, and a document summary in the current workspace."
+
+policy:
+  allow_implicit_invocation: true
